@@ -10,5 +10,5 @@ def grahamValuation(ticker):
     print(f"Growth Rate:{growthRate} ")
     currentYield=getCurrentYield()
     print(f"Current Yield: {currentYield}")
-    result=((eps*(7+growthRate))*4.4/currentYield)
+    result=(eps*(8.5+2*growthRate)*(4.4/currentYield))
     return(result)
